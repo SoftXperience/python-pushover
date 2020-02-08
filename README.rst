@@ -1,5 +1,17 @@
+Info
+----
+This is a fork of the python-pushover project from https://github.com/Thibauth/python-pushover.git
+It seems that it is no longer maintained and the latest code changes weren't published as release.
+So at the moment this fork has no real code changes, but provides a new release and publishing to pypi.
+So that it can be used from the home-assistant.io integration.
+
+The below documentation seems to be outdated. Maybe I'll update it later.
+
+About
+-----
 ``python-pushover`` aims at providing comprehensive Python bindings for the API
 of the `Pushover Notification Service`_ as documented here__.
+
 
 .. _Pushover Notification Service: https://pushover.net/ 
 .. __: https://pushover.net/api
@@ -11,13 +23,13 @@ You can install python-pushover from Pypi_ with:
 
 .. code-block:: bash
 
-    $ pip install python-pushover
+    $ pip install softxperience-pushover
 
 Or you can install it directly from GitHub_:
 
 .. code-block:: bash
 
-    git clone https://github.com/Thibauth/python-pushover.git
+    git clone https://github.com/SoftXperience/python-pushover.git
     cd python-pushover
     pip install .
 
